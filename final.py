@@ -16,6 +16,22 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("COVID19_line_list_data[1].csv")
 
-print(data.head())
+#DATA COLLECTION
+data = pd.read_csv("COVID19_open_line_list[1].csv")
+
+print(data.head(20))
+
+
+#DATA PROCESSING
+
+
+#EXPLORATORY DATA ANALYSIS
+
+#DATA VISUALIZATION
+
+#MODEL CREATION
+
+#ANALYSIS
+
+#CONCLUSION
