@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 
 #DATA COLLECTION
 
-#data from
+#Shows information about people that contracted COVID in China (age/sex/location/etc)
 china_data = pd.read_csv("COVID19_open_line_list[1].csv")
 
 #Shows number of cases from locations around the world from 1/22/20 - 11/15/20
@@ -44,7 +44,7 @@ print(china_data.head(20))
 
 
 #DATA PROCESSING
-    #theres a bunch of useless columns, so we should get rid of them here.
+    #theres a bunch of useless columns in china_data, so we should get rid of them here.
 
 
 #EXPLORATORY DATA ANALYSIS
