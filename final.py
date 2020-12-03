@@ -17,6 +17,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+#INTRODUCTION
+    #talk about covid and stuff. significance blah blah blah
+
 #DATA COLLECTION
 data = pd.read_csv("COVID19_open_line_list[1].csv")
 
@@ -24,11 +27,14 @@ print(data.head(20))
 
 
 #DATA PROCESSING
+    #theres a bunch of useless columns, so we should get rid of them here.
 
 
 #EXPLORATORY DATA ANALYSIS
+    #not sure what EDA even means
 
 #DATA VISUALIZATION
+    #hello
 
 #MODEL CREATION
 
