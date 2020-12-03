@@ -21,9 +21,26 @@ import matplotlib.pyplot as plt
     #talk about covid and stuff. significance blah blah blah
 
 #DATA COLLECTION
-data = pd.read_csv("COVID19_open_line_list[1].csv")
 
-print(data.head(20))
+#data from
+china_data = pd.read_csv("COVID19_open_line_list[1].csv")
+
+#Shows number of cases from locations around the world from 1/22/20 - 11/15/20
+world_cases_time_data = pd.read_csv("time_series_covid_19_confirmed[1].csv")
+
+#Shows number of cases from locations around the USA from 1/22/20 - 11/15/20
+US_cases_time_data = pd.read_csv("time_series_covid_19_confirmed_US[1].csv")
+
+#Shows number of deaths from locations around the world from 1/22/20 - 11/15/20
+world_death_time_data = pd.read_csv("time_series_covid_19_deaths[1].csv")
+
+#Shows number of deaths from locations around the USA from 1/22/20 - 11/15/20
+US_death_time_data = pd.read_csv("time_series_covid_19_deaths_US[1].csv")
+
+#Shows number of recovered cases from locations around the world from 1/22/20 - 11/15/20
+world_recover_data = pd.read_csv("time_series_covid_19_recovered[1].csv")
+
+print(china_data.head(20))
 
 
 #DATA PROCESSING
@@ -36,8 +53,6 @@ print(data.head(20))
 #DATA VISUALIZATION
     #hello
 
-#MODEL CREATION
+#MODEL CREATION AND ANALYSIS
 
-#ANALYSIS
-
-#CONCLUSION
+#CONCLUSION AND INTERPRETATION
